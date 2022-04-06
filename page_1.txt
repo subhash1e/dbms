@@ -1,0 +1,43 @@
+DBMS is a software to manage databases;
+
+    >> why we use dbms instead of file system -> we can create, retrieve,update, delete here too
+    but why do we need dbms
+    
+    _______
+    first lets know abouut components of a database:
+    1> Data - it is raw, unprocessed data e.g. pen, fire, saturday, love, life,father;
+    2> information - processed data which makes sense e.g. - wake me up when it's all over;
+    3> Database - Collection of related data e.g. - library database will coontain data relate  d to library
+    4> Meta-Data -In database context, Data which tells about database structure;
+    
+    Properties : db represents some aspect of the real world(miniworld),
+                 data has to be related here, also it is made and populated
+                 for a special purpose.
+   
+    ____________
+    Now understand what is dbms>>
+    What is DBMS?
+    
+    system which manages database , managing means - crud operation '
+    
+              Also,  It is collection of software/programs that enables user to create
+                and maintain the database; can be another definition;
+
+    Functionalities:
+    Define - datatype,structure, constraints for the data to be stored;
+    Construct - Process of storing data on some storage medium
+    
+    Manipulate - update, retrieve , generate reports;
+    
+    Share - Allows multiple user access of database concurrently;
+    ____________________
+    
+    DBMS environment()=> Application Programs/Queries by user() => S/W to process queries(DBMSs/w)
+    ==> dbms access stored data in dbs(metadata+actual data);
+    ___________________________
+    
+    
+    
+    
+    
+    
