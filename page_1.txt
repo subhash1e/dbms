@@ -1,0 +1,5 @@
+A query is a set of instrunctions given to the RDBMS , that tell the RDBMS what info you wan it to retrieve
+for you
+--TOns of data in a db, Often hindden in a complex schema, Goal is to get only data you need
+_______________________________________________________________________________
+
