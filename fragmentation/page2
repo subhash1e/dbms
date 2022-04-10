@@ -1,0 +1,22 @@
+BUT HOW DO WE DO FRAGMENTATION IN DB??
+ANS - 
+
+We have three methods for data fragmenting of a table:
+
+    1>Horizontal fragmentation : A GROUP OF ROWS OF THAT TABLE ARE STORED IN OTHER SIMILAR TABLE
+    2>Vertical fragmentation : : decomposE a table vertically by columns.
+    3>Mixed or Hybrid fragmentation : The combination of vertical frag. of a table followed by further horizontal frag.
+    
+ ___________________________________________________
+ eVERYTHING ABOUT
+ hORIZONTAL FRAGMENTATION 
+  ___________________________________________________
+ eVERYTHING ABOUT
+vERTICAL FRAGMENTATION 
+    
+     ___________________________________________________
+ eVERYTHING ABOUT
+mIXED FRAGMENTATION 
+  ______________________________________________
+    
+   
