@@ -1,0 +1,66 @@
+Fragmentation is a process of dividing the whole or full 
+database into various subtables or sub relations
+-----------------------------------------------------
+
+so that data can be stored in different systems.
+
+The small pieces of sub relations or subtables are called fragments.
+
+These fragments are called logical data units and are stored at various sites**
+
+
+. It must be made sure that the fragments are such that they can be used to
+reconstruct the original relation (i.e, there isn’t any loss of data). 
+Just like forking on github.
+
+______________________________________________________
+In the fragmentation process,
+
+let’s say,
+If a table T is fragmented and is divided 
+into a number of fragments say T1, T2, T3….TN.
+
+The fragments contain sufficient information 
+to allow the restoration of the original table T. 
+
+This restoration can be done by
+the use of UNION or JOIN operation on various fragments. 
+
+
+This process is called data fragmentation.
+
+
+
+All of these fragments are independent which means these fragments can not be derived from others. 
+
+
+
+____________________________________________________________________
+
+The users needn’t be logically concerned about
+fragmentation which means they
+should not concerned that the data is 
+fragmented and this is called fragmentation Independence
+or we can say fragmentation transparency.
+
+nowadays every big comapny are using fragmentation for their large data
+but it doesnt seem any difference while using their webpages/applications
+________________________________________
+ADVANTAGES of fragmentation are : 
+
+    As the data is stored close to the usage site, the efficiency of the database system will increase//
+    
+    Local query optimization methods are sufficient for some queries as the data is available locally//
+    
+    In order to maintain the security and privacy of the database system, fragmentation is advantageous**
+    
+Disadvantages :
+
+    Access speeds may be very high if data from different fragments are needed//
+    If we are using recursive fragmentation, then it will be very expensive//
+_______________________________________________________-
+
+
+
+
+
