@@ -1,5 +1,10 @@
 Adv of dbms :
-controling redundancy;restricting unathouraized access; providing persistance storage[Through program object];backup and recovery; storage strucc=ture
+controling redundancy;
+restricting unathouraized access;
+providing persistance storage[Through program object];
+backup and recovery; 
+storage strucc=ture
+
 multiple user access/interface ; complex relationships among data;
 enforcing integrity constraints; 
 permitting interfacing and actions using rules;
@@ -21,6 +26,37 @@ disadvanage are: high initial investment in hw sw and training
 overhead of providing security, concurrency control, recovery etec.;
  so for simple applications we need to use file systems
  __________________
+ 
+ 
+ 
+ Why not simply use file system??
+ ans  - 
+ 
+ actually dbms at the end of the day stores at file.
+ dbms ex - oracle,mysql, ibm db
+ 
+ in file system we can create,delete,update file/folders tooo
+ 
+ but dbms along with doing these task it offers many function
+ stores extra information
+ 
+ 1>Querying in dbms is fast.
+ As filesystem search file by file.
+ But in dbms data is stored with index
+ and extra metadata which query very fast.
+ ___________________________________________________
+ 
+  
+ 
+ ______________________________________
+ 
+ 
+ 
+ 
+ -______
+ 
+ 
+ 
 
 
 
